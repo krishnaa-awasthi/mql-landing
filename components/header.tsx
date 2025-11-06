@@ -32,8 +32,8 @@ export default function Header({ onOpenContactForm }: HeaderProps) {
           <Image
             src="/logo.png" // use your actual logo path (you can upload the provided one as /public/logo.png)
             alt="MQL Experts Logo"
-            width={120} // smaller, balanced look
-            height={30}
+            width={75} // smaller, balanced look
+            height={18}
             className="object-contain"
             priority
           />
