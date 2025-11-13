@@ -45,34 +45,11 @@ export default function Header({ onOpenContactForm }: HeaderProps) {
             onClick={onOpenContactForm}
             className="rounded-full bg-[#0055FF] px-5 py-2 text-sm font-medium text-white hover:bg-[#0044cc] transition shadow-sm"
           >
-            Get a Demo
+            Request a Quote
           </button>
         </div>
 
-        {/* Mobile Menu Toggle */}
-        <button
-          className="md:hidden"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? (
-            <X className="h-6 w-6 text-slate-900" />
-          ) : (
-            <Menu className="h-6 w-6 text-slate-900" />
-          )}
-        </button>
-      </nav>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="border-t border-gray-200 bg-white/90 backdrop-blur-md px-4 py-4 md:hidden">
-          <button
-            onClick={onOpenContactForm}
-            className="w-full rounded-full bg-[#0055FF] px-6 py-2 text-sm font-medium text-white hover:bg-[#0044cc] transition"
-          >
-            Get a Demo
-          </button>
-        </div>
-      )}
+        </nav>
     </header>
   )
 }

@@ -20,7 +20,7 @@ export default function CTA({ onOpenContactForm }: CTAProps) {
             onClick={onOpenContactForm}
             className="rounded-full bg-blue-600 px-8 py-3 text-base font-semibold text-white hover:bg-blue-700 transition shadow-premium"
           >
-            Schedule Your Demo
+            Request a Qoute
           </button>
           <button
             onClick={onOpenContactForm}

@@ -88,7 +88,7 @@ export default function ContactFormModal({ isOpen, onClose }: ContactFormModalPr
 
           {/* Content */}
           <div className="p-8">
-            <h2 className="text-4xl font-bold text-blue-900 mb-2">Get a Demo</h2>
+            <h2 className="text-4xl font-bold text-blue-900 mb-2">Request a Quote</h2>
             <p className="text-sm text-slate-600 mb-6">
               Fill out the form below and our team will be in touch shortly.
             </p>
